@@ -9,10 +9,10 @@
      }
      return inner 
    }
-     let ret = outer(100)
+     let ret = outer(100);
      ret()
      ret()
-     let ret1= outer(200)
+     let ret1= outer(200);
      ret1()
-     let ret2= outer(300)
+     let ret2= outer(300);
      ret2 ()
