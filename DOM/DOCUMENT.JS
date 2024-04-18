@@ -10,10 +10,10 @@ function demo() {
 
 document.getElementById('dd').onclick=demo2
 function demo2() {
-    document.getElementById('dt').innerHTML=Date()
+    document.getElementById('dt').innerHTML=Date();
 }
 
 document.getElementsByName('month').onclick=demo3
 function demo3(){
-document.getElementsByName('month').innerHTML=month()
+document.getElementsByName('month').innerHTML=month();
 }
