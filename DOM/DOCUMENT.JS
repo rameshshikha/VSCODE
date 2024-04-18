@@ -8,7 +8,7 @@ function demo() {
     
 }
 
-document.getElementById('dd').onclick=demo2
+document.getElementById('dd').onclick=demo2;;;;;
 function demo2() {
     document.getElementById('dt').innerHTML=Date();
 }
